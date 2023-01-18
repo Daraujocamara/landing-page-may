@@ -1,4 +1,6 @@
 @charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+
 
 /*
 #5A331F marrom mais escuro
@@ -7,7 +9,7 @@
 #5A331F cor temporaria 
 
 preciso procurar fontes
-
+font-family: 'Cormorant', serif;
 */
 
 *{
@@ -42,7 +44,8 @@ body {
 .cabecalho-menu-itens{
     color: #5A331F;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 28px;
+    font-family: 'Cormorant', serif;
 }
 
 .conteudo{
@@ -56,13 +59,15 @@ body {
     text-align: center;
     margin: 20px;
     color: #382013;
-    ;
+    font-family: 'Cormorant', serif;
 }
 
 .conteudo-principal-escrito-descricao-joias{
     color: #382013;
     font-size: 18px;
+    font-weight: 300;
     text-align: justify;
+    font-family: 'Cormorant', serif;
 }
 
 .conteudo-principal-escrito-vantagens{
