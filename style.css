@@ -21,7 +21,7 @@ font-family: 'Cormorant', serif;
 }
 
 body {
-    background-color: #C3B4A9;
+    background-color: #ffecde;
 }
 
 .cabecalho{
@@ -70,9 +70,12 @@ body {
     font-family: 'Cormorant', serif;
 }
 
+
+
 .conteudo-principal-escrito-vantagens{
     display: flex;
-    flex-direction: column;/*parei aqui dia 17/01 as 22:16 pewciso colocar texto ao lado da figura*/
+    flex-direction:row;
+    /*parei aqui dia 17/01 as 22:16 pewciso colocar texto ao lado da figura*/
 }
 
 .conteudo-principal-escrito-vantagens-subtitulo{
@@ -86,7 +89,7 @@ body {
 .conteudo-principal-escrito-paragrafos{
     color: #382013;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     padding: 5px;
 
 }
