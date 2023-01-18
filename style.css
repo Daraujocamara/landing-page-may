@@ -2,14 +2,87 @@
 
 /*
 #5A331F marrom mais escuro
-
-#F8F4EB cor mais clara de fundo
-
 #C3B4A9 marrom mais claro
+#F8F4EB cor mais clara de fundo
+#5A331F cor temporaria 
+
+preciso procurar fontes
 
 */
 
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
 }
+
+body {
+    background-color: #C3B4A9;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.cabecalho-imagem{
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 70px;
+}
+.cabecalho-menu-itens{
+    color: #5A331F;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #F8F4EB;
+}
+
+.conteudo-principal-escrito-titulo{
+    font-size: 40px;
+    font-weight: 400px;
+    text-align: center;
+    margin: 20px;
+    color: #382013;
+    ;
+}
+
+.conteudo-principal-escrito-descricao-joias{
+    color: #382013;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.conteudo-principal-escrito-vantagens{
+    display: flex;
+    flex-direction: column;/*parei aqui dia 17/01 as 22:16 pewciso colocar texto ao lado da figura*/
+}
+
+.conteudo-principal-escrito-vantagens-subtitulo{
+    font-size: 35px;
+    font-weight: 400px;
+    text-align: center;
+    margin: 20px;
+    color: #382013;
+}
+
+.conteudo-principal-escrito-paragrafos{
+    color: #382013;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+
+}
+
