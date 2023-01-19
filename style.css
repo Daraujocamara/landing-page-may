@@ -15,53 +15,18 @@ font-family: 'Cormorant', serif;
 *{
     margin: 0px;
     padding: 0px;
-    
-}  
-
-body, html{
-    height: 100vh;
-    width: 100vw;
-    background-color: lightgrey;
-    
-}
-.cabecalho{
-    display: flex;
-    flex-direction: column;   
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
-.cabecalho-menu{
-    display: flex;
-    gap: 70px;
-    margin-bottom: 20px;
+header{
+    background-color: rgb(189, 186, 186);
 }
 
-.itens-menu{
-    color: #5A331F;/*procurar fonte*/
-    font-family: 'Cormorant', serif;
-    font-size: 22px;
-    font-weight: 400;    
-    text-decoration: none;
-    
-        
+body{
+    background-color: lightgray;
 }
 
-.conteudo{
-    background-color: lightgreen;
-    border-top: 0.4 solid black;
-    
-}
-
-.descricao-semijoai{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
-.descricao-semijoai-escrita{
-    text-align: left;
+main{
+    background-color: aquamarine;
 }
