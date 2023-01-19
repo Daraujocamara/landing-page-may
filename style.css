@@ -1,4 +1,4 @@
-@charset 'utf-8';
+@charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
 
 
@@ -15,82 +15,53 @@ font-family: 'Cormorant', serif;
 *{
     margin: 0px;
     padding: 0px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-sizing: border-box;
-    text-decoration: none;
-}
+    
+}  
 
-body {
-    background-color: #ffecde;
+body, html{
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgrey;
+    
 }
-
 .cabecalho{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
     
 }
 
-.cabecalho-imagem{
-    height: 72px;
-}
-
-.cabecalho-menu {
+.cabecalho-menu{
     display: flex;
     gap: 70px;
+    margin-bottom: 20px;
 }
-.cabecalho-menu-itens{
-    color: #5A331F;
-    font-weight: 400;
-    font-size: 28px;
+
+.itens-menu{
+    color: #5A331F;/*procurar fonte*/
     font-family: 'Cormorant', serif;
+    font-size: 22px;
+    font-weight: 400;    
+    text-decoration: none;
+    
+        
 }
 
 .conteudo{
-    margin-bottom: 48px;
-    border-top: 0.4px solid #F8F4EB;
+    background-color: lightgreen;
+    border-top: 0.4 solid black;
+    
 }
 
-.conteudo-principal-escrito-titulo{
-    font-size: 40px;
-    font-weight: 400px;
-    text-align: center;
-    margin: 20px;
-    color: #382013;
-    font-family: 'Cormorant', serif;
-}
-
-.conteudo-principal-escrito-descricao-joias{
-    color: #382013;
-    font-size: 18px;
-    font-weight: 300;
-    text-align: justify;
-    font-family: 'Cormorant', serif;
-}
-
-
-
-.conteudo-principal-escrito-vantagens{
+.descricao-semijoai{
+    background-color: white;
     display: flex;
-    flex-direction:row;
-    /*parei aqui dia 17/01 as 22:16 pewciso colocar texto ao lado da figura*/
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
-.conteudo-principal-escrito-vantagens-subtitulo{
-    font-size: 35px;
-    font-weight: 400px;
-    text-align: center;
-    margin: 20px;
-    color: #382013;
+.descricao-semijoai-escrita{
+    text-align: left;
 }
-
-.conteudo-principal-escrito-paragrafos{
-    color: #382013;
-    font-size: 18px;
-    text-align: justify;
-    padding: 5px;
-
-}
-
