@@ -20,7 +20,7 @@ font-family: 'Cormorant', serif;
 }
 
 body{
-    background-color:#C3B4A9;
+    background-color: #C3B4A9;
 }
 
 
@@ -31,6 +31,8 @@ header{
 img{
     display: block;
     margin: auto;
+    height: 150px;
+    width: 400px;
     border: 1px solid black;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -96,4 +98,23 @@ section > h1{
     text-indent: 20px;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+
+section#beneficios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+h2{
+    text-align:center;
+    padding-bottom: 20px;
+}
+
+
+section#Anel_nossa_senhora{
+    width: 400px;
 }
