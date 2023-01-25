@@ -71,7 +71,7 @@ span#burguer{
 }
 
 span#burguer:hover{
-    background-color: white;
+    background-color: #F8F4EB;
     color: black
 }
 
@@ -100,21 +100,78 @@ section > h1{
     margin-bottom: 10px;
 }
 
-
-section#beneficios{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
-}
-
 h2{
     text-align:center;
     padding-bottom: 20px;
 }
 
-
-section#Anel_nossa_senhora{
-    width: 400px;
+section#beneficios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+    
 }
+
+/*
+.lista-beneficios{
+    height: 450px;
+    width: 500px;
+    background-image: url(../imagens/Brincos\ 3\ gotas.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+    
+}*/
+
+.lista-beneficios-itens{
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;;
+}
+
+img#Anel_nossa_senhora{
+    height:300px;
+    width: 450px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px #5a331f6e;
+    
+}
+
+div#botao{
+    text-align: center;
+   
+}
+
+.botao-contato{    
+    margin-top: 5px;
+    margin-bottom: 5px;    
+    width: 80px;
+    height: 30px;
+    background-color: #5a331f;
+    color: #C3B4A9;
+    border-radius: 4px;      
+    text-align: center; 
+    border: none;
+    font-size: 18px;      
+}
+.botao-contato:hover{
+    background-color: #C3B4A9;
+    color: #5a331f;
+    transition-duration: 0.2s;
+    text-decoration: underline;
+}
+
+/*
+#5A331F marrom mais escuro
+#C3B4A9 marrom mais claro
+#F8F4EB cor mais clara de fundo
+#5A331F cor temporaria 
+
+preciso procurar fontes
+font-family: 'Cormorant', serif;
+*/
